@@ -1,0 +1,247 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+
+.zipper {
+    
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.nav-bar {
+    background-color: #fff;
+}
+
+.seeme {
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.navg {
+    margin-right: 50px;
+}
+
+.nav-link {
+    color: #414042;
+    font-weight: 600;
+    font-size: 15px;
+}
+.nav-item {
+    margin-left: 20px;
+}
+
+.ing {
+    width: 200px;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    
+    
+}
+.dan {
+    width: 140px;
+}
+.danm {
+    width: 145px;
+    padding-left: 0px;
+    
+}
+.dann {
+    width: 185px;
+    padding-left: 0px;
+}
+.mem {
+    width: 145px;
+}
+
+.fina {
+    width: 160px;
+}
+.abt {
+    width: 500px;
+}
+
+.seal {
+    margin-left: 110px;
+}
+.reserve {
+    text-decoration: none;
+    color: #414042;
+}
+.zoom {
+    background-color: #f2f2f2;
+    padding-top: 20px;
+}
+
+.silver {
+    position: relative;
+    left: 1060px;
+    bottom: 27px;
+    border-radius: 30px;
+    background-color: #B01C2E;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.bg-img {
+    background-image: url(images/bg-img1.jpeg);
+    
+}
+
+.balance {
+    color: #fff;
+}
+
+.clear {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+
+.low {
+    color: #fff;
+}
+
+
+.sun {
+    margin-top: 80px;
+    width: 600px;
+    margin-left: 200px;
+}
+
+.balance {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.clear {
+    font-size: 50px;
+}
+
+.low {
+    width: 500px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.learnn {
+    background-color: #B01C2E;
+    border-radius: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 15px;
+}
+.log {
+    width: 700px;
+}
+.card {
+    font-family: sans-serif;
+    width: 300px;
+    margin-left: 110px;
+    margin-right: auto;
+    margin-top: 115px;
+    margin-bottom:3em;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+b {
+    font-size: 15px;
+    font-weight: 100;
+}
+.onl {
+    font-size: 19px;
+    color: #B01C2E;
+    font-weight: 700;
+}
+.userlogin {
+    display: flex;
+    flex-direction: column;
+}
+.userlogin label {
+    color: #414042;
+}
+
+input[type="text"],
+  input[type="password"] {
+  padding: 10px 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.sum {
+    display: flex;
+}
+.forgot {
+    display: flex;
+    flex-direction: column;
+}
+.forgoten {
+    font-size: 10px;
+    color: #414042;
+}
+
+.sonia {
+    border-radius: 27px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    background-color: #B01C2E;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    .nav-bar {
+        width: 100%;
+    }
+    
+    .zoom {
+        display: none;
+    }
+    .bg-img {
+        width: 100%;
+    }
+    .sun {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .card {
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 85px;
+    }
+
+    .low {
+        width: 100%;
+        padding-left: 35px;
+    }
+    .balance {
+        font-size: 35px;
+        text-align: center;
+    }
+    .clear {
+        text-align: center;
+        padding-left: 2.5rem;
+        padding-right: 1.875rem;
+        
+    }
+    .learnn {
+        margin-left: 150px;
+    }
+}
